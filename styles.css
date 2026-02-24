@@ -327,10 +327,8 @@ section {
 
 .old {
   color: #7A0000;
-  /* Deep maroon for better contrast than --red */
-  font-style: italic;
-  font-weight: 500;
-  /* Slightly bolder for better definition */
+  /* font-style: italic; */
+  font-weight: 7500;
 }
 
 .new {
