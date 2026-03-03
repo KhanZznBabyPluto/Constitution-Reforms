@@ -10,11 +10,11 @@ function setLang(lang, btn) {
     // Update placeholder
     const input = document.getElementById('searchCompare');
     if (lang === 'kz') {
-        input.placeholder = "Өзгерістер бойынша іздеу... (мысалы: жер, құқық, сот)";
+        input.placeholder = "Өзгерістер бойынша іздеу... (мысалы: өмір, құқық, сот)";
     } else if (lang === 'en') {
-        input.placeholder = "Search changes... (e.g., land, rights, court)";
+        input.placeholder = "Search changes... (e.g., life, rights, court)";
     } else {
-        input.placeholder = "Поиск по изменениям... (например: земля, права, суд)";
+        input.placeholder = "Поиск по изменениям... (например: жизнь, права, суд)";
     }
 
     filterTable(); // Re-apply filter on language switch
